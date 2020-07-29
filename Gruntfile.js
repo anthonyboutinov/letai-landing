@@ -95,7 +95,7 @@ module.exports = function(grunt) {
         files: [
           'src/**/*.html'
         ],
-        tasks: ['replace:serve'],
+        tasks: ['replace:serve', 'copy:serveHtml'],
       },
       js: {
         files: [
@@ -103,10 +103,9 @@ module.exports = function(grunt) {
         ],
         tasks: ['copy:building', 'concat:serve', 'babel:serve'],
       },
-      // don't livereload sass because we livereload the css
       sass: {
         options: {
-          livereload: false,
+          livereload: true,
         },
         files: [
           'src/**/*.scss'

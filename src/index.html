@@ -11,14 +11,15 @@
 </head>
 
 <body>
+  <a id="top"></a>
   <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary justify-content-between">
     <div class="container">
-      <a class="navbar-brand">
+      <a class="navbar-brand" href="#top">
         <img src="@{themePath}images/logo_255x88.png" alt="Летай Мобильная связь" class="image responsive">
       </a>
-      <div class="form-inline xs-only-button">
+      <div class="form-inline d-flex d-sm-flex d-lg-none">
         <button data-toggle="modal" data-target="#main-modal" class="btn btn btn-light">Оставить
-          <br>заявку</button>
+          <br class="d-none d-sm-inine">заявку</button>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Навигация">
         <span class="navbar-toggler-icon"></span>
@@ -36,7 +37,7 @@
             <a class="nav-link" href="#move">Перейти со своим номером</a>
           </li>
         </ul>
-        <div class="form-inline d-none d-sm-flex">
+        <div class="form-inline d-none d-lg-flex">
           <button data-toggle="modal" data-target="#main-modal" class="btn btn-md btn-light mt-4 mt-md-0">Оставить заявку</button>
         </div>
       </div>
@@ -546,10 +547,10 @@
           <p class="lead text-primary">Осталось указать номер
             <br>и мы перезвоним в течение 15&nbsp;минут.</p>
           <div class="form-row align-items-center mb-2">
-            <div class="col-auto">
+            <div class="col-12 col-sm-auto">
               <input type="tel" class="form-control form-control-md mb-2" id="phone" placeholder="+7 (___) __-__-__" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required>
             </div>
-            <div class="col">
+            <div class="col-12 col-sm">
               <button type="submit" class="btn btn-primary btn-md mb-2 fullwidth">
                 <span class="text">Перезвоните мне</span>
                 <span class="spinner d-none">
