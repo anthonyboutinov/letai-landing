@@ -32,4 +32,4 @@ grunt build
 JS файлы конкатенируются и проходят через Babel; изображения, JS, HTML, SASS сжимаются; в CSS добавляются вендор-префиксы и rem-fallback; содержимое public переносится без изменения.
 
 ## Поддержка
-Project created by Anthony Boutinov (@boutinov) https://boutinov.website
+Project created by Anthony Boutinov (@anthonyboutinov) https://boutinov.website
