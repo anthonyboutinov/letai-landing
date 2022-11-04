@@ -1,12 +1,21 @@
-# letai-landing
+# Letai: New Tariffs “A Whole Lot”—Landing Page
 
-<a href="https://www.behance.net/gallery/154223311/Letai-Landing-Page">Behance Page</a>
+_October, 2020_
 
-Лендинг Летай
+**<a href="https://www.behance.net/gallery/154223311/Letai-Landing-Page">Behance Page</a>**
+
+<a href="https://www.behance.net/gallery/154223311/Letai-Landing-Page"><img src="/readme-images/letai-behance-website-preview.jpg" alt="Letai Project Banner"></a>
+
+Screenshot:
+
+<img src="/readme-images/letai-index-html.png" alt="Letai Preview">
+
+A snapshot of that version of the website is available on Wayback Machine: https://web.archive.org/web/20201016044011/https://mnogo.letai.ru/
 
 ## Установка
 
 Для разработки, постройте node_modules
+
 ```
 npm install
 ```
@@ -34,4 +43,5 @@ grunt build
 JS файлы конкатенируются и проходят через Babel; изображения, JS, HTML, SASS сжимаются; в CSS добавляются вендор-префиксы и rem-fallback; содержимое public переносится без изменения.
 
 ## Поддержка
+
 Project created by Anthony Boutinov (@anthonyboutinov) https://boutinov.website
